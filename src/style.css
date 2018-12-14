@@ -1,18 +1,52 @@
 body{
   background-color: yellow;
+
 }
 .footer {
-    position:;
-    display: block;
-    left: 0;
-    bottom: 0;
     width: 100%;
     background-color: red;
     color: white;
-    text-align: center;
+    padding: 50px;
+    margin-top: 150px;
 }
 
-
+h1{
+  font-size: 18px;
+}
+h2{
+  font-size: 15px;
+}
+h4{
+  display: inline-block;
+}
+.col1{
+  display: flex;
+  margin-top: 150px;
+}
+.col2{
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.col3{
+  display: flex;
+  margin-bottom: 150px;
+}
+.classic{
+  display: flex;
+}
+.para1{
+  padding-left: 100px;
+  margin-top: 50px;
+}
+.para2{
+  padding-left: 100px;
+  margin-top: 50px;
+}
+.para3{
+  padding-left: 100px;
+  margin-top: 60px;
+}
 
 header{
   text-align: center;
@@ -21,7 +55,6 @@ header{
 }
 
 .nav-item{
-  text-align: ;
   text-decoration: none;
   display: inline-block;
 
@@ -37,6 +70,7 @@ li a {
   text-align: center;
   text-decoration: none;
   color: red;
+  padding: 50px;
 }
 li {
   float: right;
@@ -44,26 +78,15 @@ li {
   color:black;
 }
 
-a {
-  
-  padding: 50px;
- 
-}
 .card-img{
   background-image: url(images/pepper.jpg);
   background-repeat: no-repeat;
   background-size:100%;
   min-height: 600px;
 }
-
-
-.menu{
-  display: inline-block;
-  text-align: middle;
-  text-decoration: none;
+.copyright{
+  text-align: right;
 }
-
-
 
 * {box-sizing:border-box}
 
@@ -142,7 +165,7 @@ a {
 }
 
 .active, .dot:hover {
-    background-color: #717171;
+    background-color: #ec1010;
   }
 
 
